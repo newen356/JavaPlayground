@@ -9,6 +9,18 @@ public class Player {
         this.rating = rating;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
